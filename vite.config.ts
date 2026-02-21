@@ -19,4 +19,7 @@ export default defineConfig(({ mode }) => ({
     },
   },
   assetsInclude: ["**/*.JPG", "**/*.HEIC"], // Added this line to include .JPG and .HEIC files as assets
+  esbuild: {
+    jsx: "automatic",
+  },
 }));
