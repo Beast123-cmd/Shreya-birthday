@@ -12,6 +12,9 @@ export default defineConfig(({ mode }) => ({
     },
     allowedHosts: ["shreya-birthday.onrender.com"],
   },
+  preview: {
+    allowedHosts: ["shreya-birthday-123445.onrender.com"],
+  },
   plugins: [react()],
   resolve: {
     alias: {
